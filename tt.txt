@@ -1,0 +1,18 @@
+def toString(List): 
+	return ''.join(List) 
+
+def fill(a,i,j):
+    if i<=j:
+        for x in array:
+            a.append(x)
+            fill(a,i+1,j)
+            a.pop()
+    else:
+        print (toString(a))
+        
+    
+a=[]
+array=["T","F"]
+fill(a,0,5)
+
+    
