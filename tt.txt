@@ -1,3 +1,4 @@
+// Printing all combinations of truth values by taking n as number of boolen variables
 def toString(List): 
 	return ''.join(List) 
 
@@ -10,9 +11,9 @@ def fill(a,i,j):
     else:
         print (toString(a))
         
-    
+n=int(input())    
 a=[]
 array=["T","F"]
-fill(a,0,5)
+fill(a,0,n-1)
 
     
